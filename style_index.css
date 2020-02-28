@@ -1,0 +1,50 @@
+#banner{
+    font: 40px sans-serif;
+}
+.root{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+html{
+    background-color: blue;
+}
+body{
+    background-color: white;
+    margin: 10px 15%;
+    padding: 10px;
+}
+#mission{
+    font-size: 20px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    background-color: lightblue;
+    width: 100%;
+    
+    
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: stretch;
+    width:100%;
+    padding: 5px;
+    text-decoration: none;
+}
+.Litem{
+    padding: 2px 5px;
+    font-size: 25px;
+    text-decoration: none;
+
+}
+.Litem:hover{
+    color:lightpink;
+}
+
+
