@@ -40,7 +40,7 @@ body{
 } 
 .Litem{
     
-    font-size: 25px;
+    font-size: 25px;/*pica(pc) or em instead of pix*/
     width: 100%;  
     content: center;
     margin:0px;
