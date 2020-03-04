@@ -7,7 +7,7 @@
     align-items: center;
 }
 html{
-    background-color: blue;
+    background-color: rgb(24, 61, 78);
 }
 body{
     background-color: white;
@@ -15,11 +15,13 @@ body{
     padding: 10px;
 }
 #mission{
-    font-size: 20px;
+    font-family: sans-serif;
+
+    font-size: 20pt;
 }
 .nav{
     width:100%;
-    background-color: lightblue;
+    background-color: rgb(47, 119, 153);
     color:black;
     
     margin:0px;
@@ -49,8 +51,8 @@ body{
 
 }
 .Litem a:hover{
-    background-color: magenta;
-    color:lightpink;
+    background-color: navy;
+    color:white;
 }
 .Litem a{
     padding:10px 20px;
@@ -61,4 +63,24 @@ body{
     text-decoration: none;
 }
 
+.content{
+    font-family: sans-serif;
+    font-size: 18pt;
+}
+
+.alignLists{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width:80%;
+    
+}
+.hrs{
+    padding: 0px 40px;
+}
+.hrs > h2{
+    font-family: sans-serif;
+    font-size: 18pt;
+}
 
