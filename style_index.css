@@ -50,6 +50,10 @@ body{
     /* text-decoration: none; */
 
 }
+.Litem:hover{
+    background-color: navy;
+    color:white;
+}
 .Litem a:hover{
     background-color: navy;
     color:white;
