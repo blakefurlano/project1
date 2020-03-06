@@ -88,3 +88,24 @@ body{
     font-size: 18pt;
 }
 
+.MealPlan{
+    background-color: lightgray;
+    text-align: left;
+    font-family: sans-serif;
+}
+.MealPlan > h2{
+    align-items: left;
+}
+.MealHeader{
+    font-size: 24pt;
+    align-items: left;
+}
+
+.question{
+    font-size: 26pt;
+    font-style: bold;
+    font-family: sans-serif;
+}
+
+
+
