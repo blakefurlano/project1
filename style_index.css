@@ -89,9 +89,15 @@ body{
 }
 
 .MealPlan{
-    background-color: lightgray;
+    display:inline-block;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border:solid black;
+    background-color: gray;
     text-align: left;
     font-family: sans-serif;
+    padding:5px;
+    margin: 5px;
 }
 .MealPlan > h2{
     align-items: left;
