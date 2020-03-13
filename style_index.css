@@ -77,7 +77,7 @@ body{
     font-size: 18pt;
     
 }
-@media(max-width:760px) and (min-width:400px){
+@media(max-width:760px) and (min-width:450px){
     #banner{
         font: 30px sans-serif;
 
@@ -91,7 +91,7 @@ body{
     }
 } 
 /*for phones mainly*/
-@media(max-width:400px){
+@media(max-width:450px){
     #banner{
         font-size: 12pt;
     }
