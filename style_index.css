@@ -101,13 +101,13 @@ body{
         height: auto;
     }
     body{
-        margin: 0px 5%;
+        margin: 5px 1%;
     }
     .content{
-        font-size: 8pt;
+        font-size: 12pt;
     }
     #mission{
-        font-size: 8pt;
+        font-size: 12pt;
     }
 }
 
