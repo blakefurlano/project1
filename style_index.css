@@ -1,5 +1,10 @@
 #banner{
     font: 40px sans-serif;
+    position: relative;
+}
+.topImage{
+    width: 25%;
+    height:auto;
 }
 .root{
     display: flex;
@@ -72,7 +77,15 @@ body{
     font-size: 18pt;
     
 }
+@media(max-width:760px){
+    #banner{
+        font: 30px sans-serif;
 
+    }
+}
+@media(max-width:600px){
+    
+}
 
 
 
@@ -103,5 +116,8 @@ body{
 }
 
 
-
+.news{
+    font-family: serif;
+    font-size: 32pt;
+}
 
