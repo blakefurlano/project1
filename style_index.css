@@ -77,19 +77,29 @@ body{
     font-size: 18pt;
     
 }
-@media(max-width:760px){
+@media(max-width:760px) and (min-width:400px){
     #banner{
         font: 30px sans-serif;
 
     }
 }
-@media(max-width:600px){
+/* use for floating menu*/
+ @media(max-width:670px){
+    img{
+        width: 50px;
+        height: auto;
+    }
+} 
+/*for phones mainly*/
+@media(max-width:400px){
+    #banner{
+        font-size: 12pt;
+    }
     img{
         width: 50px;
         height: auto;
     }
 }
-
 
 
 .MealPlan{
