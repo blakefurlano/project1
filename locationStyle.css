@@ -17,8 +17,22 @@
     list-style: none;
 }
 .align > li{
-    padding: 20px;
+    padding: 40px 20px;
     flex-grow: 1;
     width:50%;
     text-align: left;
+    position: relative;
+}
+.shop{
+width: 15%;
+height: auto;
+position:absolute;
+left: 60%;
+
+bottom:15%;
+
+}
+#MarketPlace{
+    width:10%;
+    height:auto;
 }

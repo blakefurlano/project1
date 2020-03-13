@@ -5,6 +5,7 @@
 .topImage{
     width: 25%;
     height:auto;
+    padding: 0 0 15px;
 }
 .root{
     display: flex;
