@@ -110,7 +110,7 @@ body{
     }
     header{
         display: flex;
-        background-color: rgb(47, 119, 153);
+        background-color:   rgba(47, 119, 153, 1);
         position: fixed;
         width: 100%;
         left: 0;
@@ -118,6 +118,7 @@ body{
         padding:0px;
         flex-direction: row;
         justify-content: space-between;
+        z-index: 1000000;
     }
     #menubutton{
         display: block;
