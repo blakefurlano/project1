@@ -13,7 +13,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     width:80%;
-    position: relative;
+    position: relative; 
     list-style: none;
 }
 .align > li{
@@ -21,12 +21,12 @@
     flex-grow: 1;
     width:50%;
     text-align: left;
-    position: relative;
+    position: relative; 
 }
 .shop{
 width: 15%;
 height: auto;
-position:absolute;
+ position:absolute; 
 left: 60%;
 
 bottom:15%;
@@ -35,4 +35,9 @@ bottom:15%;
 #MarketPlace{
     width:10%;
     height:auto;
+}
+@media(max-width:900px){
+    .shop{
+        display: none;
+    }
 }

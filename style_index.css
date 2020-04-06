@@ -76,6 +76,9 @@ body{
     color: black;
     text-decoration: none;
 }
+#menubutton{
+    display: none;
+}
 
 .content{
     font-family: sans-serif;
@@ -112,7 +115,40 @@ body{
         width: 100%;
         left: 0;
         top: 0;
-        padding:10px;
+        padding:0px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #menubutton{
+        display: block;
+        align-self: stretch;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+    }
+    #navigate.open {
+        display: block;
+    }
+
+    #navigate {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+    }
+
+    #navigate>ul {
+        flex-direction: column;
+        background-color: white;
+    }
+
+    #navigate>ul>li {
+        border-top: 1px solid white;
+    }
+
+    #navigate>ul>li:active, .active {
+        background-color: rebeccapurple;
     }
 } 
 /*for phones mainly*/
