@@ -185,13 +185,7 @@ body{
     margin: 5px;
     width:100%;
 }
-.MealPlan > h2{
-    align-items: left;
-}
-.MealHeader{
-    font-size: 24pt;
-    align-items: left;
-}
+
 
 .question{
     font-size: 26pt;
