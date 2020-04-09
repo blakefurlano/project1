@@ -36,6 +36,11 @@ bottom:15%;
     width:10%;
     height:auto;
 }
+@media(max-width: 1210px){
+    #bagel{
+        display: none;
+    }
+}
 @media(max-width:900px){
     .shop{
         display: none;
