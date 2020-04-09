@@ -173,18 +173,7 @@ body{
 }
 
 
-.MealPlan{
-    display:inline-block;
-    box-sizing: border-box;
-    border-radius: 5px;
-    border:solid black;
-    background-color: lightgray;
-    text-align: left;
-    font-family: sans-serif;
-    padding:5px;
-    margin: 5px;
-    width:100%;
-}
+
 
 
 
